@@ -250,7 +250,6 @@ html {
 .home-about-lower {
 	background-color: white;
 	width: calc(100vw - 5rem);
-	height: 7-rem;
 	margin-left: 5rem;
 	padding-bottom: 2rem;
 	position: relative;
@@ -269,10 +268,9 @@ html {
 }
 
 .home-gallery-container {
-	width: 100%;
 	min-height: 1rem;
-	width: calc(100vw - 15rem);
-	margin-left: 5rem;
+	width: calc(100vw - 24rem);
+	margin-left: 10rem;
 	-ms-flex-line-pack: center;
 	align-content: center;
 	-webkit-box-align: center;
