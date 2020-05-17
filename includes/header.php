@@ -40,7 +40,7 @@
 				<a title="Projects" href="/projects"><li><i class="fas fa-list"></i></li></a>
 				<a title="Contact" href="/contact"><li><i class="fas fa-envelope"></i></li></a>
 			</ul>
-			<img title="socials" src="assets/img/avatar.png" onclick="headerDropdown()" />
+			<img title="Socials" src="assets/img/avatar.png" onclick="headerDropdown()" />
 		</div>
 		<div id="header_dropdown" class="header-dropdown">
 			<ul>
