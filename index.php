@@ -9,7 +9,7 @@ require_once('includes/header.php'); ?>
 	</div>
 	<div class="home-about">
 		<h1>portfolio</h1>
-		<p>This is my portfolio.</p>
+		<p>You can find hear is list of my past and current projects, along with my current skillset and some additional information about myself.</p>
 	</div>
 	<div class="home-about-lower">
 		<div class="home-about-lowerbg">
