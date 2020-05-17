@@ -55,15 +55,16 @@ require_once('includes/header.php'); ?>
 		</div>
 		<div class="home-gallery">
 			<h1>gallery</h1>
-			<div class="home-gallery-container">
-				<div class="home-gallery-card"></div>
-				<div class="home-gallery-card not-left"></div>
-				<div class="home-gallery-card not-left"></div>
-			</div>
 			<div class="home-gallery-container bottom-padding">
-				<div class="home-gallery-card"></div>
-				<div class="home-gallery-card not-left"></div>
-				<div class="home-gallery-card not-left"></div>
+				<div class="home-gallery-card">
+					<img src="assets/img/showcase-1.png" />
+				</div>
+				<div class="home-gallery-card not-left">
+					<img src="assets/img/showcase-2.png" />
+				</div>
+				<div class="home-gallery-card not-left">
+					<img src="assets/img/showcase-3.png" />
+				</div>
 			</div>
 		</div>
 	</div>
