@@ -152,6 +152,20 @@ html {
 	background-size: cover;
 }
 
+.home-hero img {
+	margin-left: calc(50% - 5rem);
+	padding-top: 2rem;
+	height: 10rem;
+}
+
+.home-hero h1 {
+	color: white;
+	font-size: 3rem;
+	text-align: center;
+	text-shadow: 2px 2px black;
+	padding-top: 2rem;
+}
+
 .home-skills {
 	background-color: white;
 	width: calc(100vw - 15rem);

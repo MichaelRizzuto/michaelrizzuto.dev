@@ -2,7 +2,8 @@
 require_once('includes/header.php'); ?>
 <div class="home-container">
 	<div class="home-hero">
-		
+		<img src="assets/img/transparent_logo.png" />
+		<h1>Michael Rizzuto</h1>
 	</div>
 	<div class="home-skills">
 		<h1>My Skills</h1>
