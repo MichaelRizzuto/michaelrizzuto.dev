@@ -53,5 +53,18 @@ require_once('includes/header.php'); ?>
 				</div>
 			</div>
 		</div>
+		<div class="home-gallery">
+			<h1>gallery</h1>
+			<div class="home-gallery-container">
+				<div class="home-gallery-card"></div>
+				<div class="home-gallery-card not-left"></div>
+				<div class="home-gallery-card not-left"></div>
+			</div>
+			<div class="home-gallery-container bottom-padding">
+				<div class="home-gallery-card"></div>
+				<div class="home-gallery-card not-left"></div>
+				<div class="home-gallery-card not-left"></div>
+			</div>
+		</div>
 	</div>
 <?php require_once('includes/footer.php'); ?>
