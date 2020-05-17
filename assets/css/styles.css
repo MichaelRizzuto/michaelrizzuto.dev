@@ -269,8 +269,8 @@ html {
 
 .home-gallery-container {
 	min-height: 1rem;
-	width: calc(100vw - 24rem);
-	margin-left: 10rem;
+	width: 80%;
+	margin-left: 10%;
 	-ms-flex-line-pack: center;
 	align-content: center;
 	-webkit-box-align: center;
