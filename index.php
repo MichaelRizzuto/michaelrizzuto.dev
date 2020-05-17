@@ -8,8 +8,8 @@ require_once('includes/header.php'); ?>
 		</div>
 	</div>
 	<div class="home-about">
-		<h1>portfolio</h1>
-		<p>You can find hear is list of my past and current projects, along with my current skillset and some additional information about myself.</p>
+		<h1>about</h1>
+		<p>You can find hear is list of my past and current projects, along with my current skillset and some additional information about myself. A short synopsis of what you'll find is that of a portfolio of a student technology euthanist. You will also come across social media links and contact details if you wish to further connect with me.</p>
 	</div>
 	<div class="home-about-lower">
 		<div class="home-about-lowerbg">
