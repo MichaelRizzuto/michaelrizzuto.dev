@@ -2,15 +2,15 @@
 <html>
 	<head>
 		<!-- Meta Tags -->
-		<title><?php echo $pageName;?> - 3rd Sector Gaming</title>
+		<title><?php echo $pageName;?> - Michael Rizzuto</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 		<meta charset="UTF-8">
-		<meta name="description" content="3rd Sector Gaming is a Garry's Mod community based in the Star Wars universe. More specifically, the reign of the Empire in a city style roleplay along with an event server.">
-		<meta name="keywords" content="3rd Sector Gaming ">
+		<meta name="description" content="The official portfolio of Michael Rizzuto.">
+		<meta name="keywords" content="Michael Rizzuto, Portfolio ">
 		<meta name="robots" content="index, follow">
-		<meta name="copyright" content="3rd Sector Gaming">
+		<meta name="copyright" content="Michael Rizzuto">
 		<meta name="language" content="EN">
-		<meta name="author" content="3rd Sector Gaming">
+		<meta name="author" content="Michael Rizzuto">
 		<meta name="creationdate" content="01/01/2020">
 		<meta name="distribution" content="global">
 		<meta name="rating" content="general">
@@ -34,10 +34,17 @@
 	</head>
 	<body>
 		<div class="header">
-			<h1><a title="Home" href="/">third sector gaming</a></h1>
 			<ul>
-				<li><a href="">home</a></li>
-				<li><a href="">forum</a></li>
-				<li><a href="">store</a></li>
+				<a title="Home" href="/"><li <?php if ($pageName == 'Home') {echo 'class="active"';} ?>><i class="fas fa-home"></i></li></a>
+				<a title="About" href="/about"><li><i class="far fa-user"></i></li></a>
+				<a title="Projects" href="/projects"><li><i class="fas fa-list"></i></li></a>
+				<a title="Contact" href="/contact"><li><i class="fas fa-envelope"></i></li></a>
+			</ul>
+			<img title="Socials" src="assets/img/avatar.png" onclick="headerDropdown()" />
+		</div>
+		<div id="header_dropdown" class="header-dropdown">
+			<ul>
+				<a title="Github" href="https://github.com/MichaelRizzuto" target="_blank"><li><i class="fab fa-github"></i></li></a>
+				<a title="LinkedIn" href="https://www.linkedin.com/in/primestudios/" target="_blank"><li><i class="fab fa-linkedin"></i></li></a>
 			</ul>
 		</div>
