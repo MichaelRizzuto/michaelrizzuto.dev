@@ -69,8 +69,9 @@ require_once('includes/header.php'); ?>
 		</div>
 	</div>
 </div>
-<div class="showcase-bg"></div>
-<div class="showcase-popup">
-	<img src="assets/img/showcase-1.png" />
+<div id="showcase_bg" onclick="closePopup()" class="showcase-bg">
+	<div id="showcase_img" class="showcase-popup animated zoomIn">
+		<img src="assets/img/showcase-1.png" />
+	</div>
 </div>
 <?php require_once('includes/footer.php'); ?>

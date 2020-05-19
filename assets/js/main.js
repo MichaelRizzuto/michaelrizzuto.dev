@@ -10,3 +10,12 @@ function headerDropdown() {
 		toggled = true
 	}
 }
+
+function closePopup() {
+	document.getElementById('showcase_img').classList.remove('zoomIn');
+	document.getElementById('showcase_img').classList.add('zoomOut');
+	setTimeout(function(){
+		document.getElementById('showcase_bg').style.display = 'none';
+		document.getElementById('showcase_img').style.display = 'none';
+	}, 500);
+}
