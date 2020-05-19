@@ -56,13 +56,13 @@ require_once('includes/header.php'); ?>
 		<div class="home-gallery">
 			<h1>gallery</h1>
 			<div class="home-gallery-container bottom-padding">
-				<div class="home-gallery-card">
+				<div class="home-gallery-card" onclick="galleryOnePopup()">
 					<img src="assets/img/showcase-1.png" />
 				</div>
-				<div class="home-gallery-card not-left">
+				<div class="home-gallery-card not-left" onclick="galleryTwoPopup()">
 					<img src="assets/img/showcase-2.png" />
 				</div>
-				<div class="home-gallery-card not-left">
+				<div class="home-gallery-card not-left" onclick="galleryThreePopup()">
 					<img src="assets/img/showcase-3.png" />
 				</div>
 			</div>
@@ -71,7 +71,9 @@ require_once('includes/header.php'); ?>
 </div>
 <div id="showcase_bg" onclick="closePopup()" class="showcase-bg">
 	<div id="showcase_img" class="showcase-popup animated zoomIn">
-		<img src="assets/img/showcase-1.png" />
+		<img id="showcase_img_one" src="assets/img/showcase-1.png" />
+		<img id="showcase_img_two" src="assets/img/showcase-2.png" />
+		<img id="showcase_img_three" src="assets/img/showcase-3.png" />
 	</div>
 </div>
 <?php require_once('includes/footer.php'); ?>

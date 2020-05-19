@@ -19,3 +19,33 @@ function closePopup() {
 		document.getElementById('showcase_img').style.display = 'none';
 	}, 500);
 }
+
+function galleryOnePopup() {
+	document.getElementById('showcase_img').classList.add('zoomIn');
+	document.getElementById('showcase_img').classList.remove('zoomOut');
+	document.getElementById('showcase_bg').style.display = 'block';
+	document.getElementById('showcase_img').style.display = 'block';
+	document.getElementById('showcase_img_one').style.display = 'block';
+	document.getElementById('showcase_img_two').style.display = 'none';
+	document.getElementById('showcase_img_three').style.display = 'none';
+}
+
+function galleryTwoPopup() {
+	document.getElementById('showcase_img').classList.add('zoomIn');
+	document.getElementById('showcase_img').classList.remove('zoomOut');
+	document.getElementById('showcase_bg').style.display = 'block';
+	document.getElementById('showcase_img').style.display = 'block';
+	document.getElementById('showcase_img_one').style.display = 'none';
+	document.getElementById('showcase_img_two').style.display = 'block';
+	document.getElementById('showcase_img_three').style.display = 'none';
+}
+
+function galleryThreePopup() {
+	document.getElementById('showcase_img').classList.add('zoomIn');
+	document.getElementById('showcase_img').classList.remove('zoomOut');
+	document.getElementById('showcase_bg').style.display = 'block';
+	document.getElementById('showcase_img').style.display = 'block';
+	document.getElementById('showcase_img_one').style.display = 'none';
+	document.getElementById('showcase_img_two').style.display = 'none';
+	document.getElementById('showcase_img_three').style.display = 'block';
+}
