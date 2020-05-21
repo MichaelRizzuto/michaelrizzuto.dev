@@ -312,8 +312,9 @@ html {
 }
 
 .home-gallery-card img {
-	margin-top: .25rem;
-	width: 100%;
+	width: 98%;
+	padding-left: 1%;
+	padding-top: 1%;
 }
 
 .not-left {
@@ -340,7 +341,7 @@ html {
 	border-radius: 4px;
 	z-index: 100;
 	position: fixed;
-	top: 5rem;
+	top: 4rem;
 	left: 10rem;
 }
 
