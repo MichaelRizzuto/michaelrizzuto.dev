@@ -294,6 +294,10 @@ html {
 	-ms-flex-pack: start;
 	justify-content: flex-start;
 	padding-top: 1rem;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
 }
 
 .home-gallery-card {
