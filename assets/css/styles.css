@@ -247,6 +247,7 @@ html {
 }
 
 .skill-actual p {
+	width: calc(80vw - 6rem);
 	font-size: 1.5rem;
 	color: black;
 	text-align: center;
