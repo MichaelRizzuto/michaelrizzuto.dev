@@ -341,6 +341,10 @@ html {
 	display: none;
 }
 
+.showcase-bg:hover {
+	cursor: pointer;
+}
+
 .showcase-popup {
 	width: calc(100vw - 15rem);
 	background-color: rgba(0,0,0,.75);
