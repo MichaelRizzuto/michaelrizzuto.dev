@@ -238,12 +238,14 @@ html {
 	background-color: rgba(50, 50, 50, 1);
 	margin-left: 1rem;
 	border-radius: 6px;
+	overflow: hidden;
 }
 
 .skill-actual {
 	height: 2rem;
 	background-color: limegreen;
 	border-radius: 6px;
+	overflow: hidden;
 }
 
 .skill-actual p {

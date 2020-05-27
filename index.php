@@ -17,37 +17,37 @@ require_once('includes/header.php'); ?>
 				<h1>My Skills</h1>
 				<h2>LUA</h2>
 				<div class="skill-bg">
-					<div class="skill-actual" style="width: 100%;">
+					<div class="skill-actual animated slideInLeft" style="width: 100%;">
 						<p>100%</p>
 					</div>
 				</div>
 				<h2>PHP</h2>
 				<div class="skill-bg">
-					<div class="skill-actual" style="width: 80%;">
+					<div class="skill-actual animated slideInLeft" style="width: 80%;">
 						<p>80%</p>
 					</div>
 				</div>
 				<h2>Javascript/Node</h2>
 				<div class="skill-bg">
-					<div class="skill-actual" style="width: 95%;">
+					<div class="skill-actual animated slideInLeft" style="width: 95%;">
 						<p>95%</p>
 					</div>
 				</div>
 				<h2>C#</h2>
 				<div class="skill-bg">
-					<div class="skill-actual" style="width: 80%;">
+					<div class="skill-actual animated slideInLeft" style="width: 80%;">
 						<p>80%</p>
 					</div>
 				</div>
 				<h2>HTML</h2>
 				<div class="skill-bg">
-					<div class="skill-actual" style="width: 100%;">
+					<div class="skill-actual animated slideInLeft" style="width: 100%;">
 						<p>100%</p>
 					</div>
 				</div>
 				<h2>CSS</h2>
 				<div class="skill-bg">
-					<div class="skill-actual" style="width: 100%;">
+					<div class="skill-actual animated slideInLeft" style="width: 100%;">
 						<p>100%</p>
 					</div>
 				</div>
