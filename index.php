@@ -66,6 +66,7 @@ require_once('includes/header.php'); ?>
 					<img src="assets/img/showcase-3.png" />
 				</div>
 			</div>
+			<p><a href="https://primestudios.co/showcase/" target="_blank">view more</a></p>
 		</div>
 	</div>
 </div>
