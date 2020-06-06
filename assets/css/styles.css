@@ -397,3 +397,26 @@ footer h1 {
 	margin-left: 10%;
 	margin-right: 10%;
 }
+
+/* Mobile Support */
+
+@media only screen and (max-width: 1000px) {
+	.home-gallery-container {
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.home-gallery-card {
+		width: 100%;
+	}
+
+	.not-left {
+		margin-left: 0;
+		margin-top: 1rem;
+	}
+
+	footer h1 {
+		padding-top: 2rem;
+		font-size: .85rem;
+	}
+}
