@@ -39,18 +39,6 @@ require_once('includes/header.php'); ?>
 						<p>80%</p>
 					</div>
 				</div>
-				<h2>HTML</h2>
-				<div class="skill-bg">
-					<div class="skill-actual animated slideInLeft" style="width: 100%;">
-						<p>100%</p>
-					</div>
-				</div>
-				<h2>CSS</h2>
-				<div class="skill-bg">
-					<div class="skill-actual animated slideInLeft" style="width: 100%;">
-						<p>100%</p>
-					</div>
-				</div>
 			</div>
 		</div>
 		<div class="home-gallery">
