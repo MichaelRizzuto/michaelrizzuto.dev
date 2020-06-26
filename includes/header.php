@@ -37,9 +37,9 @@
 		<div class="header">
 			<img src="/assets/img/logo_background.png" />
 			<div class="left">
-				<li><a href="/" target="_blank"><i class="fab fa-github"></i></a></li>
-				<li><a href="/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-				<li><a href="/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://github.com/MichaelRizzuto" target="_blank"><i class="fab fa-github"></i></a></li>
+				<li><a href="https://twitter.com/ELHS_MRizzuto" target="_blank"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="https://www.instagram.com/elhs_mrizzuto/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 			</div>
 			<div class="right">
 				<ul>
