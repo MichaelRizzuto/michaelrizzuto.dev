@@ -29,22 +29,23 @@
 		<!-- Custom Stylesheet -->
 		<link href="/assets/css/styles.css" rel="stylesheet" />
 		<link href="/assets/css/animate.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900" rel="stylesheet" type="text/css" />
 		<!-- Main JavaScript -->
 		<script src="/assets/js/main.js"></script>
 	</head>
 	<body>
 		<div class="header">
-			<ul>
-				<a title="Home" href="/"><li <?php if ($pageName == 'Home') {echo 'class="active"';} ?>><i class="fas fa-home"></i></li></a>
-				<a title="About" href="/about"><li><i class="far fa-user"></i></li></a>
-				<a title="Projects" href="/projects"><li><i class="fas fa-list"></i></li></a>
-				<a title="Contact" href="/contact"><li><i class="fas fa-envelope"></i></li></a>
-			</ul>
-			<img title="Socials" src="assets/img/avatar.png" onclick="headerDropdown()" />
-		</div>
-		<div id="header_dropdown" class="header-dropdown">
-			<ul>
-				<a title="Github" href="https://github.com/MichaelRizzuto" target="_blank"><li><i class="fab fa-github"></i></li></a>
-				<a title="LinkedIn" href="https://www.linkedin.com/in/primestudios/" target="_blank"><li><i class="fab fa-linkedin"></i></li></a>
-			</ul>
+			<img src="/assets/img/logo_background.png" />
+			<div class="left">
+				<li><a href="/" target="_blank"><i class="fab fa-github"></i></a></li>
+				<li><a href="/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+			</div>
+			<div class="right">
+				<ul>
+					<li class="active"><a>About</a></li>
+					<li><a>Projects</a></li>
+					<li><a>Contact</a></li>
+				</ul>
+			</div>
 		</div>
