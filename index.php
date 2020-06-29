@@ -2,7 +2,7 @@
 require_once('includes/header.php'); ?>
 <div class="content-container">
 	<div class="content-about">
-		<h2>about me</h2>
+		<h2>about</h2>
 		<h1>Creating <span id="typewriter"></span> that work</h1>
 		<script>
 			new TypeIt("#typewriter", {
