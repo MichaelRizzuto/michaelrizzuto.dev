@@ -26,12 +26,12 @@ require_once('includes/header.php'); ?>
 		</script>
 		<h2>languages i work with</h2>
 		<div class="about-languages">
-			<img src="/assets/img/php.png" />
-			<img src="/assets/img/javascript.png" />
-			<img src="/assets/img/html.png" />
-			<img src="/assets/img/css.png" />
-			<img src="/assets/img/lua.png" />
-			<img src="/assets/img/nodejs.png" />
+			<img title="PHP" src="/assets/img/php.png" />
+			<img title="Javascript" src="/assets/img/javascript.png" />
+			<img title="HTML" src="/assets/img/html.png" />
+			<img title="CSS" src="/assets/img/css.png" />
+			<img title="LUA" src="/assets/img/lua.png" />
+			<img title="NodeJS" src="/assets/img/nodejs.png" />
 		</div>
 	</div>
 </div>
