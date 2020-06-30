@@ -184,6 +184,15 @@ html {
 	text-indent: 2rem;
 }
 
+.projects-container {
+	padding-top: 7rem;
+	padding-bottom: 3rem;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #DCDCDC;
+	height: 5rem;
+}
+
 /* Mobile Support */
 
 @media only screen and (max-width: 1000px) {
