@@ -190,7 +190,14 @@ html {
 	padding-left: 10%;
 	padding-right: 10%;
 	background-color: #DCDCDC;
-	height: 5rem;
+}
+
+.projects-container h2 {
+	font-variant: small-caps;
+	font-size: 2rem;
+	color: black;
+	font-weight: 200;
+	text-align: center;
 }
 
 /* Mobile Support */
