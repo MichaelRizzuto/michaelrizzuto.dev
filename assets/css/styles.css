@@ -46,6 +46,7 @@ html {
 	border-bottom: .15rem solid rgba(225,225,225,1);
 	position: fixed;
 	top: 0;
+	z-index: 4;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	-webkit-user-select: none;
@@ -106,22 +107,22 @@ html {
 	width: 100vw;
 }
 
-.content-about { 
+.about-container { 
 	padding-top: 7rem;
 	padding-bottom: 2rem;
-	padding-left: 5rem;
-	padding-right: 5rem;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
-.content-about h2 {
+.about-container h2 {
 	font-variant: small-caps;
-	font-size: 1.75rem;
+	font-size: 2rem;
 	color: black;
 	font-weight: 200;
 	text-align: center;
 }
 
-.content-about h1 {
+.about-container h1 {
 	color: black;
 	text-align: center;
 	font-size: 3.5rem;
@@ -130,12 +131,13 @@ html {
 	padding-bottom: 3rem;
 }
 
-.content-about h1 #typewriter {
+.about-container h1 #typewriter {
 	font-weight: 500;
 }
 
-.content-about .about-languages {
-	padding-top: 2rem;
+.about-container .about-languages {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 	-ms-flex-line-pack: center;
 	align-content: center;
 	-webkit-box-align: center;
@@ -155,7 +157,7 @@ html {
 	justify-content: center;
 }
 
-.content-about .about-languages img {
+.about-container .about-languages img {
 	height: 6.5rem;
 	margin-left: 5rem;
 	margin-right: 5rem;
@@ -166,9 +168,19 @@ html {
 	transition: all .2s ease-in-out;
 }
 
-.content-about .about-languages img:hover {
+.about-container .about-languages img:hover {
 	filter: grayscale(0%);
 	cursor: pointer;
+}
+
+.about-description {
+	padding-top: 3rem;
+}
+
+.about-container p {
+	font-weight: 200;
+	font-size: 1.25rem;
+	text-indent: 2rem;
 }
 
 /* Mobile Support */
