@@ -103,7 +103,7 @@ html {
 /* Container */
 
 .content-container {
-	min-height: 100vh;
+	min-height: 1rem;
 	width: 100vw;
 }
 
