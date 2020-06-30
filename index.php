@@ -31,6 +31,7 @@ require_once('includes/header.php'); ?>
 			<img title="HTML" src="/assets/img/html.png" />
 			<img title="CSS" src="/assets/img/css.png" />
 			<img title="LUA" src="/assets/img/lua.png" />
+			<img title="C#" src="/assets/img/csharp.png" />
 			<img title="NodeJS" src="/assets/img/nodejs.png" />
 		</div>
 		<h2>information about me</h2>
