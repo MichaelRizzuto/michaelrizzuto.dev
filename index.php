@@ -41,6 +41,56 @@ require_once('includes/header.php'); ?>
 	</div>
 	<div class="projects-container">
 		<h2>projects</h2>
+		<div class="projects-list">
+			<div class="project-individual">
+				<a href="https://primestudios.co" target="_blank">
+					<div class="project-link">
+						<img src="/assets/img/primestudios.png" />
+						<h1>Prime Studios</h1>
+						<p>Prime Studios is a freelance company focused on building powerful websites for our clients.</p>
+					</div>
+				</a>
+			</div>
+			<div class="project-individual">
+				<a href="https://padojrp.net" target="_blank">
+					<div class="project-link">
+						<img src="/assets/img/padojrp.png" />
+						<h1>PADOJRP</h1>
+						<p>PADOJRP is a FiveM community that puts the player first based on the state of Pennsylvania.</p>
+					</div>
+				</a>
+			</div>
+			<div class="project-individual">
+				<a href="https://encryptedlaser.com" target="_blank">
+					<div class="project-link">
+						<img src="/assets/img/encryptedlaser.png" />
+						<h1>Encrypted Laser</h1>
+						<p>Encrypted Laser is a company that is mainly engaged in the hosting industry.</p>
+					</div>
+				</a>
+			</div>
+			<div class="project-individual">
+				<a href="https://thiradus.com" target="_blank">
+					<div class="project-link">
+						<img src="/assets/img/thiradus.png" />
+						<h1>Thiradus</h1>
+						<p>Thiradus is a software development company targetted at creating products for gaming communities.</p>
+					</div>
+				</a>
+			</div>
+			<div class="project-individual">
+				<a href="https://www.gmodstore.com/users/76561198119404563/addons" target="_blank">
+					<div class="project-link">
+						<img src="/assets/img/gmodstore.png" />
+						<h1>GmodStore</h1>
+						<p>GmodStore is the one stop Garry's Mod marketplace.</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="contact-container">
+		<h2>contact</h2>
 	</div>
 </div>
 <?php require_once('includes/footer.php'); ?>
