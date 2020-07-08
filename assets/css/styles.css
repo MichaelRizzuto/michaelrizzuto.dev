@@ -230,6 +230,11 @@ html {
 	margin-top: .2rem;
 	margin-bottom: .2rem;
 	border-radius: 4px;
+	transition: all .2s ease-in-out;
+}
+
+.projects-container .projects-list .project-individual:hover {
+	background-color: #4F5A68;
 }
 
 .projects-container .projects-list .project-individual img {
