@@ -91,6 +91,15 @@ require_once('includes/header.php'); ?>
 	</div>
 	<div class="contact-container">
 		<h2>contact</h2>
+		<form action="https://formspree.io/mgenryba" method="POST">
+			<label>name</label>
+		  	<input type="text" name="name">
+		  	<label>email</label>
+		  	<input type="email" name="_replyto">
+		  	<label>comment</label>
+		  	<input type="text" name="comment">
+		  	<input type="submit" value="Send">
+		</form>
 	</div>
 </div>
 <?php require_once('includes/footer.php'); ?>

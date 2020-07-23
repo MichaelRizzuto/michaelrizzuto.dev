@@ -278,6 +278,27 @@ html {
 	color: black;
 	font-weight: 200;
 	text-align: center;
+	padding-bottom: 3rem;
+}
+
+.contact-container form {
+	width: 80%;
+	margin-left: 10%;
+}
+
+.contact-container label {
+	width: 100%;
+	font-size: 1.5rem;
+	font-variant: small-caps;
+}
+
+.contact-container input {
+	width: 100%;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	height: 2rem;
+	padding: .25rem;
+	font-size: 1rem;
 }
 
 /* Mobile Support */
