@@ -1,7 +1,7 @@
 <?php $pageName = 'Portfolio';
 require_once('includes/header.php'); ?>
 <div class="content-container">
-	<div class="about-container">
+	<div id="about" class="about-container">
 		<h2>about</h2>
 		<h1>Creating <span id="typewriter"></span> that work</h1>
 		<script>
@@ -39,7 +39,7 @@ require_once('includes/header.php'); ?>
 			<img title="NodeJS" src="/assets/img/nodejs.png" />
 		</div>
 	</div>
-	<div class="projects-container">
+	<div id="projects" class="projects-container">
 		<h2>projects</h2>
 		<div class="projects-list">
 			<div class="project-individual">
@@ -89,7 +89,7 @@ require_once('includes/header.php'); ?>
 			</div>
 		</div>
 	</div>
-	<div class="contact-container">
+	<div id="contact" class="contact-container">
 		<h2>contact</h2>
 		<form action="https://formspree.io/mgenryba" method="POST">
 			<label>name</label>
