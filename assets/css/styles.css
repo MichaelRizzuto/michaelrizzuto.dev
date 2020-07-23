@@ -287,18 +287,40 @@ html {
 }
 
 .contact-container label {
+	color: black;
 	width: 100%;
 	font-size: 1.5rem;
 	font-variant: small-caps;
 }
 
 .contact-container input {
+	color: black;
 	width: 100%;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	height: 2rem;
 	padding: .25rem;
 	font-size: 1rem;
+}
+
+/* Footer */
+
+footer {
+	min-height: 1rem;
+	width: 100vw;
+	background-color: white;
+	border-top: .15rem solid rgba(225,225,225,1);
+}
+
+footer h1 {
+	font-size: 1rem;
+	color: black;
+	font-weight: 300;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 /* Mobile Support */
