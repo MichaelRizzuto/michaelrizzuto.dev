@@ -45,9 +45,9 @@
 			</div>
 			<div class="right">
 				<ul>
-					<li class="active" onclick="AboutButton()"><a>About</a></li>
-					<li onclick="ProjectsButton()"><a>Projects</a></li>
-					<li onclick="ContactButton()"><a>Contact</a></li>
+					<li id="nav_about" class="active" onclick="AboutButton()"><a>About</a></li>
+					<li id="nav_projects" onclick="ProjectsButton()"><a>Projects</a></li>
+					<li id="nav_contact" onclick="ContactButton()"><a>Contact</a></li>
 				</ul>
 			</div>
 		</div>

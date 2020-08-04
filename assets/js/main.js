@@ -11,3 +11,31 @@ function ProjectsButton() {
 function ContactButton() {
 	document.getElementById("contact").scrollIntoView({behavior: "smooth"})
 }
+
+function isInView(elem){
+	return $(elem).offset().top - $(window).scrollTop() < $(elem).height();
+}
+
+$(window).scroll(function(){
+	if (isInView($('#about'))) {
+		document.getElementById("about_nav").classList.remove("active");
+		document.getElementById("projects_nav").classList.add("active");
+		document.getElementById("contact_nav").classList.remove("active");
+	}
+})
+
+$(window).scroll(function(){
+	if (isInView($('#projects'))) {
+		document.getElementById("about_nav").classList.remove("active");
+		document.getElementById("projects_nav").classList.add("active");
+		document.getElementById("contact_nav").classList.remove("active");
+	}
+})
+
+$(window).scroll(function(){
+	if (isInView($('#contact'))) {
+		document.getElementById("about_nav").classList.remove("active");
+		document.getElementById("projects_nav").classList.add("active");
+		document.getElementById("contact_nav").classList.remove("active");
+	}
+})
