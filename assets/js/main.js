@@ -64,4 +64,5 @@ window.addEventListener('resize', function() {
 	document.getElementById("navbar_right").style.display = "none";
 	document.getElementById("expand_image").classList.add("fa-bars");
 	document.getElementById("expand_image").classList.remove("fa-times");
+	navbar_expanded = false;
 });
