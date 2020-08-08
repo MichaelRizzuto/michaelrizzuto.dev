@@ -12,6 +12,22 @@ function ContactButton() {
 	document.getElementById("contact").scrollIntoView({behavior: "smooth"})
 };
 
+var navbar_expanded = false;
+
+function NavbarExpand() {
+	if (navbar_expanded) {
+		document.getElementById("navbar_right").style.display = "none";
+		document.getElementById("expand_image").classList.add("fa-bars");
+		document.getElementById("expand_image").classList.remove("fa-times");
+		navbar_expanded = false;
+	} else {
+		document.getElementById("navbar_right").style.display = "block";
+		document.getElementById("expand_image").classList.remove("fa-bars");
+		document.getElementById("expand_image").classList.add("fa-times");
+		navbar_expanded = true;
+	}
+};
+
 function isInView(elem){
 	return $(elem).offset().top - $(window).scrollTop() < $(elem).height();
 };

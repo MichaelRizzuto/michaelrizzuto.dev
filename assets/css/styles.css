@@ -68,6 +68,7 @@ html {
 }
 
 .header .right {
+	display: block;
 	position: absolute;
 	top: 0;
 	right: 2rem;
@@ -94,6 +95,10 @@ html {
 .header li a:hover {
 	color: dodgerblue;
 	cursor: pointer;
+}
+
+.header .mobile {
+	display: none;
 }
 
 .active {
@@ -326,4 +331,53 @@ footer h1 {
 /* Mobile Support */
 
 @media only screen and (max-width: 1000px) {
+	.header .mobile {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 2rem;
+		padding-top: 1.25rem;
+		font-size: 1.5rem;
+	}
+
+	.header .mobile:hover {
+		cursor: pointer;
+	}
+
+	.header .right {
+		background-color: rgba(230, 230, 230, 1);
+		display: none;
+		position: absolute;
+		top: 4rem;
+		left: 0;
+		width: 100vw;
+		text-align: center;
+		padding: 0;
+		border-bottom: .05rem solid rgba(200, 200, 200, 1);
+	}
+
+	.header .right li {
+		display: block;
+		font-size: 1.25rem;
+		font-weight: 300;
+		padding-left: .25rem;
+		padding-right: .25rem;
+		padding-top: .75rem;
+		padding-bottom: .75rem;
+		list-style-type: none;
+	}
+
+	.header .right li a {
+		color: black;
+		transition: all ease-in-out .2s;
+	}
+
+	.header .right li a:hover {
+		color: dodgerblue;
+		cursor: pointer;
+	}
+
+	.active {
+		background-color: dodgerblue;
+	}
 }

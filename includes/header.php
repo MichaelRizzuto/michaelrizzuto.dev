@@ -38,12 +38,15 @@
 	<body>
 		<div class="header">
 			<img src="/assets/img/logo_background.png" />
+			<div class="mobile">
+				<p onclick="NavbarExpand()"><i id="expand_image" class="fas fa-bars"></i></p>
+			</div>
 			<div class="left">
 				<li><a href="https://github.com/MichaelRizzuto" target="_blank"><i class="fab fa-github"></i></a></li>
 				<li><a href="https://twitter.com/ELHS_MRizzuto" target="_blank"><i class="fab fa-twitter"></i></a></li>
 				<li><a href="https://www.instagram.com/elhs_mrizzuto/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 			</div>
-			<div class="right">
+			<div id="navbar_right" class="right">
 				<ul>
 					<li id="nav_about" class="active" onclick="AboutButton()"><a>About</a></li>
 					<li id="nav_projects" onclick="ProjectsButton()"><a>Projects</a></li>
