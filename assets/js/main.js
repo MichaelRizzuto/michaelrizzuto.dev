@@ -18,24 +18,24 @@ function isInView(elem){
 
 $(window).scroll(function(){
 	if (isInView($('#about'))) {
-		document.getElementById("about_nav").classList.remove("active");
-		document.getElementById("projects_nav").classList.add("active");
-		document.getElementById("contact_nav").classList.remove("active");
+		document.getElementById("nav_about").classList.add("active");
+		document.getElementById("nav_projects").classList.remove("active");
+		document.getElementById("nav_contact").classList.remove("active");
 	}
 })
 
 $(window).scroll(function(){
 	if (isInView($('#projects'))) {
-		document.getElementById("about_nav").classList.remove("active");
-		document.getElementById("projects_nav").classList.add("active");
-		document.getElementById("contact_nav").classList.remove("active");
+		document.getElementById("nav_about").classList.remove("active");
+		document.getElementById("nav_projects").classList.add("active");
+		document.getElementById("nav_contact").classList.remove("active");
 	}
 })
 
 $(window).scroll(function(){
 	if (isInView($('#contact'))) {
-		document.getElementById("about_nav").classList.remove("active");
-		document.getElementById("projects_nav").classList.add("active");
-		document.getElementById("contact_nav").classList.remove("active");
+		document.getElementById("nav_about").classList.remove("active");
+		document.getElementById("nav_projects").classList.remove("active");
+		document.getElementById("nav_contact").classList.add("active");
 	}
 })
