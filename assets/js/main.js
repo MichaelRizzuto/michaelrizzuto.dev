@@ -56,6 +56,12 @@ $(window).scroll(function(){
 	}
 });
 
-$(window).on('beforeunload', function(){
+$(window).on('beforeunload', function() {
     $(window).scrollTop(0);
+});
+
+window.addEventListener('resize', function() {
+	document.getElementById("navbar_right").style.display = "none";
+	document.getElementById("expand_image").classList.add("fa-bars");
+	document.getElementById("expand_image").classList.remove("fa-times");
 });
