@@ -26,11 +26,11 @@ function NavbarExpand() {
 		document.getElementById("expand_image").classList.add("fa-times");
 		navbar_expanded = true;
 	}
-};
+}
 
 function isInView(elem){
 	return $(elem).offset().top - $(window).scrollTop() < $(elem).height();
-};
+}
 
 $(window).scroll(function(){
 	if (isInView($('#about'))) {
@@ -38,7 +38,7 @@ $(window).scroll(function(){
 		document.getElementById("nav_projects").classList.remove("active");
 		document.getElementById("nav_contact").classList.remove("active");
 	}
-});
+})
 
 $(window).scroll(function(){
 	if (isInView($('#projects'))) {
@@ -46,7 +46,7 @@ $(window).scroll(function(){
 		document.getElementById("nav_projects").classList.add("active");
 		document.getElementById("nav_contact").classList.remove("active");
 	}
-});
+})
 
 $(window).scroll(function(){
 	if (isInView($('#contact'))) {
@@ -54,15 +54,24 @@ $(window).scroll(function(){
 		document.getElementById("nav_projects").classList.remove("active");
 		document.getElementById("nav_contact").classList.add("active");
 	}
-});
+})
 
 $(window).on('beforeunload', function() {
     $(window).scrollTop(0);
-});
+})
 
 window.addEventListener('resize', function() {
-	document.getElementById("navbar_right").style.display = "none";
-	document.getElementById("expand_image").classList.add("fa-bars");
-	document.getElementById("expand_image").classList.remove("fa-times");
-	navbar_expanded = false;
-});
+	if ( !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		if (window.innerWidth > 1000) {
+			document.getElementById("navbar_right").style.display = "block";
+			document.getElementById("expand_image").classList.add("fa-bars");
+			document.getElementById("expand_image").classList.remove("fa-times");
+			navbar_expanded = false;
+		} else {
+			document.getElementById("navbar_right").style.display = "none";
+			document.getElementById("expand_image").classList.add("fa-bars");
+			document.getElementById("expand_image").classList.remove("fa-times");
+			navbar_expanded = false;
+		}
+	}
+})
