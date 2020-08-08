@@ -2,19 +2,19 @@
 
 function AboutButton() {
 	document.getElementById("about").scrollIntoView({behavior: "smooth"})
-}
+};
 
 function ProjectsButton() {
 	document.getElementById("projects").scrollIntoView({behavior: "smooth"})
-}
+};
 
 function ContactButton() {
 	document.getElementById("contact").scrollIntoView({behavior: "smooth"})
-}
+};
 
 function isInView(elem){
 	return $(elem).offset().top - $(window).scrollTop() < $(elem).height();
-}
+};
 
 $(window).scroll(function(){
 	if (isInView($('#about'))) {
@@ -22,7 +22,7 @@ $(window).scroll(function(){
 		document.getElementById("nav_projects").classList.remove("active");
 		document.getElementById("nav_contact").classList.remove("active");
 	}
-})
+});
 
 $(window).scroll(function(){
 	if (isInView($('#projects'))) {
@@ -30,7 +30,7 @@ $(window).scroll(function(){
 		document.getElementById("nav_projects").classList.add("active");
 		document.getElementById("nav_contact").classList.remove("active");
 	}
-})
+});
 
 $(window).scroll(function(){
 	if (isInView($('#contact'))) {
@@ -38,4 +38,8 @@ $(window).scroll(function(){
 		document.getElementById("nav_projects").classList.remove("active");
 		document.getElementById("nav_contact").classList.add("active");
 	}
-})
+});
+
+$(window).on('beforeunload', function(){
+    $(window).scrollTop(0);
+});
