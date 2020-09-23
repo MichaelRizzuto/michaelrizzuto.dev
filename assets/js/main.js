@@ -75,3 +75,24 @@ window.addEventListener('resize', function() {
 		}
 	}
 })
+
+window.onload = function() {
+	new TypeIt("#typewriter", {
+		speed: 100,
+		deleteSpeed: 100,
+		loop: true,
+		waitUntilVisible: true
+	})
+		.type("websites")
+		.pause(1000)
+		.delete(8)
+		.type("applications")
+		.pause(1000)
+		.delete(12)
+		.type("products")
+		.pause(1000)
+		.delete(8)
+		.type("projects")
+		.pause(1000)
+		.go();
+}
