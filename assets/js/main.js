@@ -76,7 +76,7 @@ window.addEventListener('resize', function() {
 	}
 })
 
-window.onload = function() {
+function OnLoadEvents() {
 	new TypeIt("#typewriter", {
 		speed: 100,
 		deleteSpeed: 100,
@@ -96,3 +96,5 @@ window.onload = function() {
 		.pause(1000)
 		.go();
 }
+
+window.onload = OnLoadEvents();
