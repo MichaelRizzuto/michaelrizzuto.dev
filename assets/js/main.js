@@ -97,4 +97,4 @@ function OnLoadEvents() {
 		.go();
 }
 
-window.onload = OnLoadEvents();
+window.onload = OnLoadEvents;
