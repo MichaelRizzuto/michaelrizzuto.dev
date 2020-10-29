@@ -69,15 +69,6 @@ require_once('includes/header.php'); ?>
 					</div>
 				</a>
 			</div>
-			<div class="project-individual">
-				<a href="https://www.gmodstore.com/users/76561198119404563/addons" target="_blank">
-					<div class="project-link">
-						<img src="/assets/img/gmodstore.png" />
-						<h1>GmodStore</h1>
-						<p>GmodStore is the one stop Garry's Mod marketplace.</p>
-					</div>
-				</a>
-			</div>
 		</div>
 	</div>
 	<div id="contact" class="contact-container">
