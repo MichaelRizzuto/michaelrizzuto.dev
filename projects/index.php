@@ -26,7 +26,7 @@ require_once('../includes/header.php'); ?>
 			<img src="/assets/img/padojrp.png" />
 			<h1>PADOJRP</h1>
 			<h2>Director | 2019-2020</h2>
-			<p>A custom tailored Garry's Mod experience based on City Roleplay.</p>
+			<p>PADOJRP is a FiveM community that puts the player first based on the state of Pennsylvania.</p>
 		</div>
 		<div class="project-container project-padding">
 			<img src="/assets/img/encryptedlaser.png" />
