@@ -44,7 +44,7 @@ require_once('../includes/header.php'); ?>
 			<img src="/assets/img/atlas.png" />
 			<h1>Atlas Uprising</h1>
 			<h2>Developer | 2020-Present</h2>
-			<p>Atlas Uprising is a Multi-Game community that has acomplished a great amount of success in Garry's Mod and Rust.</p>
+			<p>Atlas Uprising is a Multi-Game community that has accomplished a great amount of success in Garry's Mod, Arma and Rust.</p>
 		</div>
 	</div>
 </div>
