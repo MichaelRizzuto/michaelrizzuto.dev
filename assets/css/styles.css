@@ -407,7 +407,7 @@ html {
 	margin-bottom: 1rem;
 	object-fit: fill;
 	filter: grayscale(90%);
-	transition: all .2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 .page-container .about-container .about-languages img:hover {
