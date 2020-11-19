@@ -478,11 +478,49 @@ html {
 	background-color: rgba(25, 25, 25, 1);
 	position: relative;
 	z-index: 2;
-	width: 80%;
+	width: 100%;
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
+}
+
+.page-container .projects-container .project-padding {
+	margin-top: 2rem;
+}
+
+.page-container .projects-container .project-container img {
+	width: 7rem;
+	height: 7rem;
+	padding-right: 1rem;
+	border-right: 0.25rem solid #FFFFFF;
+	object-fit: contain;
+}
+
+.page-container .projects-container .project-container h1 {
+	color: #FFFFFF;
+	font-size: 2rem;
+	margin-left: 9rem;
+	margin-top: -7rem;
+	font-weight: 700;
+	padding-right: 10%;
+}
+
+.page-container .projects-container .project-container h2 {
+	color: #FFFFFF;
+	font-style: italic;
+	font-size: 1.5rem;
+	margin-left: 9rem;
+	font-weight: 400;
+	padding-right: 10%;
+}
+
+.page-container .projects-container .project-container p {
+	color: #CCCCCC;
+	font-size: 1.5rem;
+	margin-left: 9rem;
+	font-weight: 400;
+	padding-right: 10%;
 }
 
 /* Contact */
