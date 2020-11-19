@@ -377,6 +377,44 @@ html {
 	padding-bottom: 1rem;
 }
 
+.page-container .about-container .about-languages {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: start;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.page-container .about-container .about-languages img {
+	height: 7rem;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	object-fit: fill;
+	filter: grayscale(90%);
+	transition: all .2s ease-in-out;
+}
+
+.page-container .about-container .about-languages img:hover {
+	filter: grayscale(0%);
+	cursor: pointer;
+}
+
 .page-container .about-container .about-timeline {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
