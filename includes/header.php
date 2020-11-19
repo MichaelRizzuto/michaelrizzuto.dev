@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<!-- Meta Tags -->
-		<title><?php echo $pageName;?> - Michael Rizzuto</title>
+		<title><?php echo $pageName;?>Michael Rizzuto</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 		<meta charset="UTF-8">
 		<meta name="description" content="The official portfolio of Michael Rizzuto.">
@@ -26,31 +26,24 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
 		<!-- jQuery -->
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-		<!-- TypeIt -->
-		<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 		<!-- Custom Stylesheet -->
 		<link href="/assets/css/styles.css" rel="stylesheet" />
 		<link href="/assets/css/animate.css" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 		<!-- Main JavaScript -->
+		<script src="/assets/js/thirdparty.js"></script>
 		<script src="/assets/js/main.js"></script>
 	</head>
 	<body>
 		<div class="header">
-			<img src="/assets/img/logo_background.png" />
-			<div class="mobile">
-				<p onclick="NavbarExpand()"><i id="expand_image" class="fas fa-bars"></i></p>
-			</div>
-			<div class="left">
-				<li><a href="https://github.com/MichaelRizzuto" target="_blank"><i class="fab fa-github"></i></a></li>
-				<li><a href="https://twitter.com/PrimeStudiosUS" target="_blank"><i class="fab fa-twitter"></i></a></li>
-				<li><a href="https://www.instagram.com/elhs_mrizzuto/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-			</div>
-			<div id="navbar_right" class="right">
-				<ul>
-					<li id="nav_about" class="active" onclick="AboutButton()"><a>About</a></li>
-					<li id="nav_projects" onclick="ProjectsButton()"><a>Projects</a></li>
-					<li id="nav_contact" onclick="ContactButton()"><a>Contact</a></li>
-				</ul>
-			</div>
+			<img src="/assets/img/logo_transparent.png" />
+			<ul class="navbar-left">
+				<li <?php if ($pageName == '') {echo 'class="active"';} ?>><a href="/">Home</a></li>
+				<li <?php if ($pageName == 'About - ') {echo 'class="active"';} ?>><a href="/about">About</a></li>
+			</ul>
+			<ul class="navbar-right">
+				<li <?php if ($pageName == 'Projects - ') {echo 'class="active"';} ?>><a href="/projects">Projects</a></li>
+				<li <?php if ($pageName == 'Contact - ') {echo 'class="active"';} ?>><a href="/contact">Contact</a></li>
+			</ul>
 		</div>
