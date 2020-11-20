@@ -478,7 +478,7 @@ html {
 	background-color: rgba(25, 25, 25, 1);
 	position: relative;
 	z-index: 2;
-	width: 100%;
+	width: 80%;
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-top: 5rem;
@@ -635,7 +635,41 @@ footer h1 {
 
 /* Mobile Support */
 
-/*
 @media only screen and (max-width: 1000px) {
+	.header .navbar-left {
+		display: none
+	}
+
+	.header .navbar-right {
+		display: none
+	}
+
+	.page-container .projects-container .project-container img {
+		border-right: none;
+	}
+
+	.page-container .projects-container .project-container h1 {
+		margin-left: 0;
+		margin-top: 1rem;
+	}
+
+	.page-container .projects-container .project-container h2 {
+		margin-left: 0;
+		margin-top: 1rem;
+	}
+
+	.page-container .projects-container .project-container p {
+		margin-left: 0;
+		margin-top: 1rem;
+	}
+
+	.page-container .contact-container .first-name {
+		width: 100%;
+	}
+
+	.page-container .contact-container .last-name {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 1rem;
+	}
 }
-*/
