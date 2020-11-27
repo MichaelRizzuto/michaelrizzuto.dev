@@ -42,6 +42,7 @@ mysqli_close($mySQLInstance);
 				</tr>
 				<?php
 					$inbox = json_decode($inbox);
+					$inbox = array_reverse($inbox);
 					foreach($inbox as $message) {
 						echo '				<tr>' . PHP_EOL;
 						echo '					<td>' . $message->date . '</td>' . PHP_EOL;
