@@ -20,7 +20,7 @@ require_once('../../includes/functions.php');
 		<form enctype="text/plain" action="../../includes/authenticate.php" method="get">
 			<input name="username" type="text" placeholder="Username"></input>
 			<br />
-			<input name="password" type="text" placeholder="Password"></input>
+			<input name="password" type="password" placeholder="Password"></input>
 			<br />
 			<input type="submit" value="Login"></input>
 		</form>
