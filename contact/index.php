@@ -10,7 +10,7 @@ require_once('../includes/header.php'); ?>
 	<div class="page-divider">
 	</div>
 	<div class="contact-container">
-		<form action="https://formspree.io/f/mgenryba" method="POST">
+		<form enctype="text/plain" action="/includes/contact.php" method="get">
 			<div class="first-name">
 				<p><i class="fas fa-tag"></i> First Name</p>
 				<input placeholder="John" name="first" type="text"></input>

@@ -637,11 +637,11 @@ footer h1 {
 
 @media only screen and (max-width: 1000px) {
 	.header .navbar-left {
-		display: none
+		display: none;
 	}
 
 	.header .navbar-right {
-		display: none
+		display: none;
 	}
 
 	.page-container .projects-container .project-container img {
