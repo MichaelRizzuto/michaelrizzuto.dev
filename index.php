@@ -19,6 +19,7 @@ require_once('includes/header.php'); ?>
 		<h1>Socials</h1>
 		<ul>
 			<li><a title="GitHub" href="https://github.com/MichaelRizzuto" target="_blank"><i class="fab fa-github"></i></a></li>
+			<li><a title="LinkedIn" href="https://www.linkedin.com/in/primestudios/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 			<li><a title="Twitter" href="https://twitter.com/PrimeStudiosUS" target="_blank"><i class="fab fa-twitter"></i></a></li>
 			<li><a title="Instagram" href="https://www.instagram.com/elhs_mrizzuto/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 		</ul>
