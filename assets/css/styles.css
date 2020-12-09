@@ -71,6 +71,14 @@ html {
 	margin-left: calc(50vw - 7rem / 2);
 }
 
+.header p {
+	display: none;
+}
+
+.header h2 {
+	display: none;
+}
+
 .header .navbar-left {
 	width: calc(50vw - 5rem);
 	margin-top: -7rem;
@@ -652,12 +660,86 @@ footer h1 {
 /* Mobile Support */
 
 @media only screen and (max-width: 1000px) {
-	.header .navbar-left {
+	.header {
+		overflow: visible;
+	}
+
+	.header p {
+		display: block;
+		font-size: 2rem;
+		color: #FFFFFF;
+		margin-left: calc(100vw - 5rem);
+		margin-top: -5rem;
+		width: 2rem;
+		height: 2rem;
+		text-align: center;
+		transition: color ease-in-out 0.2s;
+	}
+
+	.header p:hover {
+		color: #CCCCCC;
+		cursor: pointer;
+	}
+
+	.header h2 {
+		display: block;
+		font-size: 2rem;
+		color: #FFFFFF;
+		margin-left: calc(100vw - 5rem);
+		margin-top: 2.25rem;
+		width: 2rem;
+		height: 2rem;
+		text-align: center;
+		transition: color ease-in-out 0.2s;
+	}
+
+	.header h2:hover {
+		color: #CCCCCC;
+		cursor: pointer;
+	}
+
+	.header-dropdown {
+		background-color: #000000;
+		height: 100vh;
+		position: fixed;
+		top: 0;
 		display: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		-webkit-user-select: none;
+		user-select: none;
+	}
+
+	.header .navbar-left {
+		width: 100vw;
+		margin-top: 1rem;
+		height: max-content;
+		text-align: center;
 	}
 
 	.header .navbar-right {
-		display: none;
+		width: 100vw;
+		margin-top: 0;
+		margin-left: 0;
+		height: max-content;
+		text-align: center;
+		padding-bottom: 2rem;
+	}
+
+	.header li {
+		font-size: 1.5rem;
+		font-weight: 300;
+		display: block;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		padding-top: 2.25rem;
+		padding-bottom: 0.25rem;
+	}
+
+	.home-container .home-socials li {
+		font-size: 3rem;
+		display: block;
+		margin: 2rem;
 	}
 
 	.page-container .projects-container .project-container img {

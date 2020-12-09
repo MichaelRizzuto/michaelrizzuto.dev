@@ -38,12 +38,16 @@
 	<body>
 		<div class="header">
 			<img src="/assets/img/logo_transparent.png" />
-			<ul class="navbar-left">
-				<li <?php if ($pageName == '') {echo 'class="active"';} ?>><a href="/">Home</a></li>
-				<li <?php if ($pageName == 'About - ') {echo 'class="active"';} ?>><a href="/about">About</a></li>
-			</ul>
-			<ul class="navbar-right">
-				<li <?php if ($pageName == 'Projects - ') {echo 'class="active"';} ?>><a href="/projects">Projects</a></li>
-				<li <?php if ($pageName == 'Contact - ') {echo 'class="active"';} ?>><a href="/contact">Contact</a></li>
-			</ul>
+			<p onclick="headerDropdown()"><i class="fas fa-bars"></i></p>
+			<div id="header_dropdown" class="header-dropdown">
+				<h2 onclick="headerExitDropdown()"><i class="fas fa-times"></i></h2>
+				<ul class="navbar-left">
+					<li <?php if ($pageName == '') {echo 'class="active"';} ?>><a href="/">Home</a></li>
+					<li <?php if ($pageName == 'About - ') {echo 'class="active"';} ?>><a href="/about">About</a></li>
+				</ul>
+				<ul class="navbar-right">
+					<li <?php if ($pageName == 'Projects - ') {echo 'class="active"';} ?>><a href="/projects">Projects</a></li>
+					<li <?php if ($pageName == 'Contact - ') {echo 'class="active"';} ?>><a href="/contact">Contact</a></li>
+				</ul>
+			</div>
 		</div>
