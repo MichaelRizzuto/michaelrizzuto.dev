@@ -616,6 +616,7 @@ html {
 	background-color: rgba(35, 35, 35, 1);
 	border: none;
 	font-weight: 300;
+	resize: none;
 }
 
 .page-container .contact-container input[name=submit] {
