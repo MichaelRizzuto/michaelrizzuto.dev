@@ -17,12 +17,6 @@ require_once('../includes/header.php'); ?>
 			<p>Prime Studios is a freelance company focused on building powerful websites for our clients.</p>
 		</div>
 		<div class="project-container project-padding">
-			<img src="/assets/img/valiant.png" />
-			<h1>Valiant Servers</h1>
-			<h2>Root | 2020-Present</h2>
-			<p>A custom tailored Garry's Mod experience based on City Roleplay.</p>
-		</div>
-		<div class="project-container project-padding">
 			<img src="/assets/img/padojrp.png" />
 			<h1>PADOJRP</h1>
 			<h2>Director | 2019-2020</h2>
@@ -43,7 +37,7 @@ require_once('../includes/header.php'); ?>
 		<div class="project-container project-padding">
 			<img src="/assets/img/atlas.png" />
 			<h1>Atlas Uprising</h1>
-			<h2>Developer | 2020-Present</h2>
+			<h2>Developer | 2020-2020</h2>
 			<p>Atlas Uprising is a Multi-Game community that has accomplished a great amount of success in Garry's Mod, Arma and Rust.</p>
 		</div>
 	</div>
