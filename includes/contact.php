@@ -5,7 +5,7 @@ require_once('functions.php');
 
 $mySQLInstance = mysqli_connect($host, $user, $pass, $database, $port);
 
-$date = date("m/d/y");
+$date = date('m/d/y');
 $first = validateInput($_GET['first']);
 $last = validateInput($_GET['last']);
 $email = validateInput($_GET['email']);

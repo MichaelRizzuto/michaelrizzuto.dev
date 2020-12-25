@@ -18,7 +18,7 @@ $query = 'update `contact` set `read` = "true" WHERE id="' . $id . '"';
 
 $updateRead = mysqli_query($mySQLInstance, $query);
 
-while($row = mysqli_fetch_assoc($result)) {
+while ($row = mysqli_fetch_assoc($result)) {
 	$inbox[] = $row;
 }
 
@@ -41,7 +41,7 @@ mysqli_close($mySQLInstance);
 		<p><a href="/admin">Back</a></p>
 		<?php
 			$inbox = json_decode($inbox);
-			foreach($inbox as $message) {
+			foreach ($inbox as $message) {
 				echo '<p>' . $message->date . '</p>' . PHP_EOL;
 				echo '		<p>' . $message->first . ' ' . $message->last . '</p>' . PHP_EOL;
 				echo '		<p>' . $message->email . '</p>' . PHP_EOL;

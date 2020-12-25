@@ -17,6 +17,12 @@ require_once('../../includes/functions.php');
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
 	</head>
 	<body>
+		<?php
+			if (isset($_SESSION['failedLogin']) && $_SESSION['failedLogin'] == true) {
+				echo '<p>Incorrect Username or Password!</p>' . PHP_EOL;
+				$_SESSION['failedLogin'] = false;
+			}
+		?>
 		<form enctype="text/plain" action="../../includes/authenticate.php" method="get">
 			<input name="username" type="text" placeholder="Username"></input>
 			<br />

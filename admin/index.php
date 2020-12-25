@@ -11,7 +11,7 @@ $query = 'select * from contact';
 
 $result = mysqli_query($mySQLInstance, $query);
 
-while($row = mysqli_fetch_assoc($result)) {
+while ($row = mysqli_fetch_assoc($result)) {
 	$inbox[] = $row;
 }
 
@@ -43,12 +43,12 @@ mysqli_close($mySQLInstance);
 				<?php
 					$inbox = json_decode($inbox);
 					$inbox = array_reverse($inbox);
-					foreach($inbox as $message) {
+					foreach ($inbox as $message) {
 						echo '				<tr>' . PHP_EOL;
 						echo '					<td>' . $message->date . '</td>' . PHP_EOL;
 						echo '					<td>' . $message->first . ' ' . $message->last . '</td>' . PHP_EOL;
 						echo '					<td>' . $message->email . '</td>' . PHP_EOL;
-						if($message->read == "true") {
+						if ($message->read == "true") {
 							echo '					<td><i title="Read" class="fas fa-check-circle"></i></td>' . PHP_EOL;
 						} else {
 							echo '					<td><i title="Not Read" class="fas fa-times-circle"></i></td>' . PHP_EOL;
