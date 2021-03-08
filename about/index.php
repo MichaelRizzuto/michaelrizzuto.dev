@@ -13,7 +13,7 @@ require_once('../includes/header.php'); ?>
 		<div class="about-timeline">
 			<h1>Summary</h1>
 			<div class="about-summary">
-				<p>My name is Michael Rizzuto, I am a sixteen year old technology enthusiast based in Pennsylvania. I got my start in the gaming industry, where I still find myself spending some of my sparetime, but quickly evolved into a passion and desire to create my own games or contribute to others. During this time I also got introduced to the hosting industry where I found employment and a source of income. I spend my time nowadays enjoying my hobbies and doing freelance for others. My hobbies include gaming, as mentioned earlier, football, wrestling and overall I'm just a social person and enjoy talking with others.</p>
+				<p>My name is Michael Rizzuto, I am a technology enthusiast and junior volunteer firefighter based in Pennsylvania. I got my start in the gaming industry, where I still find myself spending some of my sparetime, but quickly evolved into a passion and desire to create my own games or contribute to others. During this time I also got introduced to the hosting industry where I found employment and a source of income. I spend my time nowadays enjoying my hobbies and doing freelance for others. My hobbies include gaming, as mentioned earlier, football, wrestling and overall I'm just a social person and enjoy talking with others.</p>
 			</div>
 			<h1>What I work with</h1>
 			<div class="about-languages">
@@ -39,12 +39,12 @@ require_once('../includes/header.php'); ?>
 				<div class="about-timeline-benchmark">
 					<h1>2013</h1>
 					<div class="timeline-cricle"></div>
-					<p><b>Baby Steps</b><br />Here I transitioned from Minecraft to Garry's Mod and in a bigger sense into a "business" side of it. This is where I created something with my friends that opened up the world of oppurtunity in learning programming among varius other skills that would help me evolve into what I am today. Trully where I consider my start in this evolution.</p>
+					<p><b>Baby Steps</b><br />Here I transitioned from Minecraft to Garry's Mod and in a bigger sense into a "business" side of it. This is where I created something with my friends that opened up the world of oppurtunity in learning programming among varius other skills that would help me evolve into what I am today. Truly where I consider my start in this evolution.</p>
 				</div>
 				<div class="about-timeline-benchmark">
 					<h1>2016</h1>
 					<div class="timeline-cricle"></div>
-					<p><b>Web Development</b><br />An important part of any community is it's online presence, not just game presence. I began exploring the world of web development and went in depth in fine tuning my design skills and becoming proficient in front end, then moving to back end where I still keep up with today's practices and use my skill for hobbies.</p>
+					<p><b>Web Development</b><br />An important part of any community is it's online presence, not just game presence. I began more heavily exploring the world of web development and went in depth in fine tuning my design skills and becoming proficient in front end, then moving to back end where I still keep up with today's practices and use my skill for hobbies.</p>
 				</div>
 				<div class="about-timeline-benchmark">
 					<h1>2019</h1>
